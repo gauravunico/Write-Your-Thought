@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Thoughts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Share Your Daily Thoughts</h1>
+        
+        <!-- Form to submit a new thought -->
+        <div class="thought-form">
+            <textarea id="thought-input" placeholder="What's on your mind?"></textarea>
+            <button onclick="submitThought()">Submit Thought</button>
+        </div>
+
+        <!-- Display submitted thoughts -->
+        <div id="thoughts-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
